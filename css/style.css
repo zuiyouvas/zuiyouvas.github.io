@@ -1,0 +1,158 @@
+*{
+	margin: 0px;
+	
+}
+body{
+	background: url(../img/timg.jpg) no-repeat;
+}
+.header{
+
+	width: 100%;
+	height: 40px;
+	background-color: #ffffff;
+	/*display: block;*/
+
+}
+.header img{
+	height: 40px;
+	width: 100px;
+	background-color: #fff; 
+
+}
+/*.header:hover{
+	animation-name:myani2;
+	animation-duration:0.2s;
+	-webkit-animation-iteration-count:1;
+	/*-webkit-animation-direction:normal;
+	-webkit-animation-fill-mode:forwards; 
+
+}
+@keyframes myani2{
+
+	0%{
+		margin-top: -36px;
+
+	}
+	100%{
+		margin-top: 0px;
+	}
+}*/
+
+
+/*a:active{
+	animation-name:myani;
+	animation-duration:2s;
+
+
+}
+@keyframes myani{
+
+	0%{
+		margin-left: -150px;
+
+	}
+	100%{
+		margin-left: 0px;
+	}
+}
+*/
+.bgf{
+
+
+	position: absolute;
+	left: 200px;
+	top: 200px;
+}
+
+.flash{
+	margin-top: 50px;
+	margin-left: -140px;
+	width: 150px;
+	height: 400px;
+	background-color: #fff;
+	float: left;
+	box-shadow: 2px 4px 2px 2px gray;
+	border-radius: 20px;
+	
+
+}
+
+
+.aside{
+    width: 150px;
+	height: 400px;
+	background-color: #fff;
+	float: left;
+	border-radius: 20px;
+	border: 1px solid gray;
+	
+	
+
+}
+.flash:hover{
+	animation-name:myani;
+	animation-duration:0.2s;
+	-webkit-animation-iteration-count:1;
+	/*-webkit-animation-direction:normal;*/
+	-webkit-animation-fill-mode:forwards; 
+
+}
+@keyframes myani{
+
+	0%{
+		margin-left: -150px;
+
+	}
+	100%{
+		margin-left: 0px;
+	}
+}
+.aside a{
+
+	display: block;
+	text-align: center;
+	/*margin: 20px auto;*/
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	color: #000;
+	width: 150px;
+	height: 50px;
+	background-color: gray;
+	line-height: 50px;
+	border-radius: 20px;
+
+}
+.aside a:link, .aside a:visited{
+	background-color: #fff;
+}
+.aside a:hover, .aside a:active{
+	background-color: #f8f8ff;
+}
+.index{
+
+	float: right;
+	width: 1190px;
+}
+.section{
+
+	width: 700px;
+	height:300px;
+	height-max: 400px;
+	background-color: rgba(248,248,255,0.7);
+	margin: 50px auto;
+	border: 1px solid gray;
+	box-shadow: 2px 4px 2px 2px gray;
+	border-radius: 8px;
+
+
+}
+.footer{
+	height: 50px;
+	width: 100%;
+	background-color: #e8e8e8;
+	clear: both;
+	position:fixed;
+    bottom:0;
+    opacity: 0.3;
+}

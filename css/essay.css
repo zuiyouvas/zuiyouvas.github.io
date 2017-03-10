@@ -1,0 +1,15 @@
+.essay{
+	overflow: hidden;
+
+
+}
+.essay h2{
+	text-align: center;
+	margin-top: 20px;
+}
+.essay p{
+	margin: 35px 30px;
+	overflow: hidden;
+    /*text-overflow: ellipsis;*/
+   /* white-space: nowrap;*/
+}
